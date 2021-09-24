@@ -1,0 +1,35 @@
+<section class="w-50 m-auto my-5">
+    <h4 class="text-center">Create New Blog</h4>
+    <form class="new-blog-form">
+       
+        <div class="form-outline mb-4">
+            <input type="text" id="blog-title" name="blog-title" class="form-control" />
+            <label class="form-label" for="blog-title">Title</label>
+          </div>
+
+        <div class="form-outline mb-4">
+            <textarea class="form-control" id="blog-text" name="blog-text" rows="4"></textarea>
+            <label class="form-label" for="blog-text">Blog Entry</label>
+          </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+            Create Blog
+          </button>
+    </form>
+</section>
+
+{{#if blogs.length}}
+<section>
+    <h4>Your Own Blogs</h4>
+    <ol>
+        {{#each blogs as |blog|}}
+        <li>
+            {{> blog-info blog}}
+            <a href="/dashboard/edit/{{blog.id}}" class="edit-link">Edit blog</a>
+        </li>
+        {{/each}}
+    </ol>
+</section>
+{{/if}}
+
+<script src="/javascript/add-blog.js"></script></script>
