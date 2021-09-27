@@ -39,13 +39,15 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
   Project demonstration in this video
   [![Youtube](https://img.youtube.com/vi/I6P_ZOr3no0/0.jpg)](https://youtu.be/I6P_ZOr3no0)
 
-  ## live site
+  ## live site on heroku
   https://tech-blog-abl.herokuapp.com/login
+  
+  ## Project repository 
+  https://github.com/bwogi/tech-blog
   
   ## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
   This app is covered under MIT license.
-  ## Project repository 
-  https://github.com/bwogi/tech-blog
+
   ## Contributors
   Developed by Andrew Bwogi
