@@ -36,7 +36,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
   ```$ npm start```
 
   ## Mockup
-  Project demonstration in this video
+  ### Project demonstration in this video
   [![Youtube](https://img.youtube.com/vi/I6P_ZOr3no0/0.jpg)](https://youtu.be/I6P_ZOr3no0)
 
   ## live site on heroku
